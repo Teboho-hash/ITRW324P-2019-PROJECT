@@ -13,5 +13,15 @@ import java.net.URL;
 public class LogIn_Activity extends Activity{
   private Button btnEnter;
   private TextView lblRegt;
+  
+  @Override
+  protected void onCreate(Bundle savedInstanceState){
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+    
+    btnEnter = findViewById(R.id.btnLogin);
+    
+  }
+  
 
 }
